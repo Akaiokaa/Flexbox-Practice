@@ -9,10 +9,10 @@ Note: you should only need to use flexbox properties and margin/padding to creat
 */
 /* top */
 .logo{
-    padding-left: 7.5rem;
+    padding-left: 9rem;
 }
 .user-actions{
-    padding-right: 7.5rem
+    padding-right: 9rem
 }
 .user-actions button:first-of-type{
     margin-right: 0.6rem;
@@ -20,12 +20,14 @@ Note: you should only need to use flexbox properties and margin/padding to creat
 header {
     display: flex;
     justify-content: space-evenly;
-    padding: 0.25rem 0;
+    padding: 0.9rem 0;
 }
 header nav a{
    margin: 0 1rem;
 }
-
+nav{
+    margin-top: 0.40rem;
+}
 /* card-section */
 .card-container {
     display: flex;
