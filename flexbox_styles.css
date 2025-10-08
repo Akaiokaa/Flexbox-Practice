@@ -1,0 +1,87 @@
+/* 
+    Name: Brendan Villaraza
+    Date: 10/7/2025
+    Assignment: Flexbox Practice 
+*/
+/* 
+TODO: Add styles to match the layout in the image.
+Note: you should only need to use flexbox properties and margin/padding to create the layout.
+*/
+/* top */
+.logo{
+    padding-left: 7.5rem;
+}
+.user-actions{
+    padding-right: 7.5rem
+}
+.user-actions button:first-of-type{
+    margin-right: 0.6rem;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.25rem 0;
+}
+header nav a{
+   margin: 0 1rem;
+}
+
+/* card-section */
+.card-container {
+    display: flex;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1.37rem;
+}
+
+/* features-section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.feature-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.feature-item p{
+    margin: 0 3rem;
+}
+
+
+/* footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 17%;
+    padding-bottom: 2rem;
+}
+.footer-section:first-of-type p{
+    width: 20rem;
+}
+.footer-section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    margin-right: 13rem;
+}
+.footer-section:nth-of-type(3){
+    margin-right: 10rem;
+}
+
+.social-links a{
+    margin-right: 1rem;
+}
+.footer-bottom p{
+    margin-right: 7rem;
+}
+/* 
+Challenge: Use flexbox in media queries to create a responsive layout 
+*/
+
+
